@@ -1,6 +1,7 @@
 import Vue from 'vue';
 import BootstrapVue from 'bootstrap-vue';
 import VueChatScroll from 'vue-chat-scroll';
+import 'bootstrap';
 
 import App from './App.vue';
 import router from './router/index';

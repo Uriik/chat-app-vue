@@ -16,10 +16,10 @@ const vuexlocal = new VuexPersistence({
 export default new Vuex.Store({
   state: {
   },
-  mutations: {
+  mutations,
+  actions,
+  getters: {
   },
-  actions: {
-  },
-  modules: {
-  },
+  plugins: [vuexLocal.plugin],
+  strict: debug,
 });
